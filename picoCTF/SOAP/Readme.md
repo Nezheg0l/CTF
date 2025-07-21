@@ -47,8 +47,8 @@ The application accepts raw XML input with `Content-Type: application/xml`, and 
 
 
 🛡️ Mitigation (Developer Notes)
--To prevent this vulnerability:
--🚫 Disable external entity expansion
--🚫 Disallow DOCTYPE declarations
--✅ Validate input using strict XML schema
--✅ Consider switching to JSON if XML is not necessary
+>To prevent this vulnerability:
+>🚫 Disable external entity expansion
+>🚫 Disallow DOCTYPE declarations
+>✅ Validate input using strict XML schema
+>✅ Consider switching to JSON if XML is not necessary
