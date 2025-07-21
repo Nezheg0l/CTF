@@ -63,3 +63,10 @@ func([cmd, arg])
 ```
 picoCTF{sst1_f1lt3r...}
 ```
+
+| Property        | Impact                                        |
+| --------------- | --------------------------------------------- |
+| Confidentiality | 🔴 Full flag disclosure (sensitive data leak) |
+| Integrity       | 🔴 Arbitrary command execution possible       |
+| Availability    | 🟡 Could lead to abuse or resource exhaustion |
+
