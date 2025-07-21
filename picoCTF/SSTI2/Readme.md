@@ -64,3 +64,18 @@ cat flag
 ```
 picoCTF{sst1_f1lt3r...}
 ```
+| Property        | Impact                                           |
+| --------------- | ------------------------------------------------ |
+| Confidentiality | 🔴 Flag disclosure and potential secrets         |
+| Integrity       | 🔴 Arbitrary command execution                   |
+| Availability    | 🔴 Could lead to DoS if abused (e.g. fork bombs) |
+
+🛡️ Mitigation
+Use SandboxedEnvironment from Jinja2
+
+Escape or reject template syntax entirely
+
+Apply strict input validation before rendering
+
+Never render user-controlled strings directly
+
