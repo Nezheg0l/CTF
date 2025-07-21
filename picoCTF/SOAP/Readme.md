@@ -37,3 +37,18 @@ The application accepts raw XML input with `Content-Type: application/xml`, and 
 <data>
   <ID>&xxe;</ID>
 </data>
+```
+
+| Property        | Impact                                                       |
+| --------------- | ------------------------------------------------------------ |
+| Confidentiality | 🔴 Exposed sensitive files (`/etc/passwd`, API keys, config) |
+| Integrity       | 🟡 Potential alteration if parser injects data into logic    |
+| Availability    | 🔴 Possible DoS via Billion Laughs attack                    |
+
+
+🛡️ Mitigation (Developer Notes)
+-To prevent this vulnerability:
+-🚫 Disable external entity expansion
+-🚫 Disallow DOCTYPE declarations
+-✅ Validate input using strict XML schema
+-✅ Consider switching to JSON if XML is not necessary
