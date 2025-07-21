@@ -13,10 +13,10 @@ The goal is not just to “pass,” but to **deeply understand exploitation**, b
 
 ## 📦 Repositories
 
-| Platform   | Completed | Writeups |
-|------------|----------|----------|
-| picoCTF    | 4       | ✅       |
-| TryHackMe  | 7        | ✅       |
+| Platform              |Completed | Writeups |
+|-----------------------|----------|----------|
+| picoCTF(only med/high)| 4        | ✅       |
+| TryHackMe             | 7        | ✅       |
 
 ## 🛠️ Tools:
 - Burp Suite
