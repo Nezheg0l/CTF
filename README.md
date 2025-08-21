@@ -3,7 +3,7 @@
 My personal journal with CTF, TryHackMe, HackTheBox, and private challenges.  
 The goal is not just to “pass,” but to **deeply understand exploitation**, both as an attacker and as a defender.
 
--🔥OSCP level *17%*
+-🔥OSCP level *32%*
 
 ## 📚 Categories:
 - 🔥 Web Exploitation (XSS, SQLi, RCE, very many)
