@@ -18,7 +18,8 @@ The goal is not just to “pass,” but to **deeply understand exploitation**, b
 | Platform              |Completed | Writeups |
 |-----------------------|----------|----------|
 | picoCTF(only med/high)| 4        | ✅       |
-| TryHackMe             | 7        | ✅       |
+| TryHackMe             | 2        | ✅       |
+| Other                 | 1        | ✅       |
 
 ## 🛠️ Tools:
 - Burp Suite
