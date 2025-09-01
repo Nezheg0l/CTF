@@ -2,7 +2,7 @@
 
 **Author:** Tayler Derden  
 **Category:** CTF / Exploitation Lab  
-**Difficulty:** 🔴 Hard  
+**Difficulty:** 💀 Impossible  
 **Tags:** `Metasploit`, `ProFTPD`, `PwnKit`, `Privilege Escalation`, `Linux`
 
 ---
