@@ -12,7 +12,7 @@
 
 ## 📘 Description
 
-**While this machine is known for its trivial `vsftpd 2.3.4` backdoor, this write-up documents a deliberately chosen, more challenging path to simulate a scenario where common exploits might fail. Instead of taking the easy way, the focus was on deep analysis and exploiting less obvious misconfigurations.**
+**While this machine is known for its trivial `vsftpd 2.3.4`(https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/ftp/vsftpd_234_backdoor.rb) backdoor, this write-up documents a deliberately chosen, more challenging path to simulate a scenario where common exploits might fail. Instead of taking the easy way, the focus was on deep analysis and exploiting less obvious misconfigurations.**
 
 This challenge is based on the classic **Metasploitable 2** virtual machine.  
 The goal: identify vulnerabilities through deep enumeration, gain initial access, and escalate privileges to become **root**.
