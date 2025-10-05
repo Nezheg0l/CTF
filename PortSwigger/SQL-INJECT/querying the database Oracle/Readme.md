@@ -61,4 +61,3 @@ This payload successfully executed, and the database version string was displaye
 *   A `UNION` attack requires matching the number and data types of columns from the original query.
 *   Oracle databases have unique features, such as the `dual` dummy table and system views like `v$version`.
 *   The `BANNER` column within `v$version` is the standard place to find the full version string in an Oracle database.
-```
