@@ -15,6 +15,7 @@ Here is a list of the labs I have successfully completed (Practitioner level and
 | [SQL injection attack, querying the database type and version on Oracle](https://github.com/Nezheg0l/CTF/tree/main/PortSwigger/SQL-INJECT/querying%20the%20database%20Oracle/Readme.md)| `PRACTITIONER🟩` | `UNION` attack, retrieving version strings from `v$version`. |
 | [SQL injection attack, querying the database type and version on MySQL and Microsoft](https://github.com/Nezheg0l/CTF/blob/main/PortSwigger/SQL-INJECT/querying%20the%20database%20MySQL%20and%20Microsoft/Readme.md)                                  | `PRACTITIONER🟩` | `UNION` attack, retrieving version strings from `@@version`. |
 | [SQL injection attack, listing the database contents on non-Oracle databases](https://github.com/Nezheg0l/CTF/blob/main/PortSwigger/SQL-INJECT/listing%20the%20database%20on%20non-Oracle%20databases/Readme.md)                                  | `PRACTITIONER🟩` | `UNION` attack, retrieving user and pass strings from `information_schema.tables`. |
+| [SQL injection attack, listing the database contents on Oracle databases](https://github.com/Nezheg0l/CTF/blob/main/PortSwigger/SQL-INJECT/listing%20the%20database%20on%20ORACLE/Readme.md)                                  | `PRACTITIONER🟩` | `UNION` attack, retrieving user and pass strings from `information_schema.tables`. |
 
 ### How to Navigate
 Each lab has its own dedicated directory. Inside, you'll find a `README.md` file that contains a comprehensive write-up covering:
